@@ -60,7 +60,7 @@
 			return
 
 		register = !register
-		boutput(usr, "[self_only ? "Now registering with mainframes.":"Now no longer registering with mainframes.]")
+		boutput(usr, "[register ? "Now registering with mainframes.":"Now no longer registering with mainframes.]")
 		return
 		
 	proc/spacket(var/datum/mechanicsMessage/input)
